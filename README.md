@@ -9,7 +9,7 @@ How should the model be implemented?
 
 The model should combine physiological models with machine learning techniques to predict personalized heart rate (HR) responses to exercise intensity, leveraging data from wearable devices. The key components and functions of the model include:
 
-1.	Physiological Model (ODE Model):
+1.	Physiological Model (DBN Model):
 •	The core of the model uses Dynamic Bayesian Networks (DBNs) to describe the evolution of heart rate in response to exercise intensity.
 •	The DBNs parameters are dynamically derived using a neural network that connects personalized representations to external factors like workout intensity, environmental conditions, and fatigue.
 
